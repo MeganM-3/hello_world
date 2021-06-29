@@ -1,0 +1,30 @@
+print('\nRequirement 1\n')
+print('\nThis is Program 1 - Megan Weir\n')
+
+print('\nRequirement 2\n')
+print('Please enter the information requested.\n')
+name = input('Last name: ')
+hometown = input('Hometown: ')
+occupation = input('Occupation: ')
+hobby = input('Hobby: ')
+
+print('\nRequirement 3\n')
+print('Hello {}!'.format(name))
+print('From {}.'.format(hometown))
+print('I hope you like being a(n) {}.'.format(occupation))
+print('{} sounds like an interesting hobby.'.format(hobby))
+
+print('\nRequirement 4\n')
+print('Alternative Output\n')
+print('Hello',name,'!')
+print('From '+hometown+ '.')
+print('I hope you like being a(n)',occupation)
+print(hobby + ' sounds like an interesting hobby.')
+
+print('\nRequirement 5\n')
+print('More Options\n')
+print('Hello ',    name,    '!') # note the spaces after commas
+print('Hello ',name,'!',sep='') # suppress the separator
+print('Hello ',name,'! ',end='', sep='') # suppress the endline and separator
+print('Hello ',name,'! ',end='', sep='') # suppress the endline and separator
+print('Hello ',name,'! ',end='', sep='') # suppress the endline and separator
